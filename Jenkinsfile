@@ -23,7 +23,7 @@ pipeline {
         stage("Check out") {
             steps {
                 script {
-                    git branch: 'feature/nexusUpload', url: 'https://github.com/karimsahebettabaa/LogWebApp2.git';
+                    git branch: 'main', url: 'https://github.com/karimsahebettabaa/LogWebApp2.git';
                 }
             }
         }
